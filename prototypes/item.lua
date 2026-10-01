@@ -18,7 +18,7 @@ data:extend({
 		inventory_move_sounds = item_sounds.wood_inventory_move,
 		pick_sound = item_sounds.wood_inventory_pickup,
 		drop_sound = item_sounds.wood_inventory_move,
-		fuel_category = "chemical",
+		fuel_categories = {"chemical"},
 		fuel_value = "2MJ",
 		stack_size = 50,
 		default_import_location = "gleba",
@@ -43,7 +43,7 @@ data:extend({
 		inventory_move_sounds = item_sounds.wood_inventory_move,
 		pick_sound = item_sounds.wood_inventory_pickup,
 		drop_sound = item_sounds.wood_inventory_move,
-		fuel_category = "chemical",
+		fuel_categories = {"chemical"},
 		fuel_value = "1.21MJ",
 		stack_size = 10,
 		weight = 10 * kg
