@@ -58,7 +58,7 @@ if mods["Arcanyx"] then
 			inventory_move_sounds = seed.inventory_move_sounds,
 			pick_sound = seed.pick_sound,
 			drop_sound = seed.drop_sound,
-			fuel_category = "voidcraft",
+			fuel_categories = {"voidcraft"},
 			fuel_value = seed.fuel_value,
 			stack_size = seed.stack_size,
 			weight = seed.weight
